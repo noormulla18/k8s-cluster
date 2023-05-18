@@ -3,7 +3,7 @@ data "azurerm_resource_group" "main" {
 }
 
 module "aks" {
-    source  = "tfe.nmulla.3381802800.workshops.arctiq.ca"
+    source  = "tfe.nmulla.3381802800.workshops.arctiq.ca/NoorWS/aks/azure"
     version = "1.0.1"
 
     # insert required variables here
